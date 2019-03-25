@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <Configurations>Debug;Release</Configurations>
+    <Platforms>AnyCPU</Platforms>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="log4net" Version="2.0.8" />
+    <PackageReference Include="Nethereum.Contracts" Version="3.0.0" />
+    <PackageReference Include="Nethereum.StandardTokenEIP20" Version="3.0.0" />
+    <PackageReference Include="Nethereum.Web3" Version="3.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Aigang.Contracts.Executor.Domain\Aigang.Contracts.Executor.Domain.csproj" />
+    <ProjectReference Include="..\Aigang.Contracts.Executor.Utils\Aigang.Contracts.Executor.Utils.csproj" />
+  </ItemGroup>
+</Project>

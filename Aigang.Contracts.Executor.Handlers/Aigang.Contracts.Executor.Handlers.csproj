@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <Configurations>Debug;Release</Configurations>
+    <Platforms>AnyCPU</Platforms>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="log4net" Version="2.0.8" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Aigang.Contracts.Executor.Blockchain.Client\Aigang.Contracts.Executor.Blockchain.Client.csproj" />
+    <ProjectReference Include="..\Aigang.Contracts.Executor.Contracts\Aigang.Contracts.Executor.Contracts.csproj" />
+    <ProjectReference Include="..\Aigang.Contracts.Executor.Domain\Aigang.Contracts.Executor.Domain.csproj" />
+    <ProjectReference Include="..\Aigang.Etherscan.Client\Aigang.Etherscan.Client.csproj" />
+  </ItemGroup>
+</Project>

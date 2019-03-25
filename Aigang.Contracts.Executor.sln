@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aigang.Contracts.Executor.API", "Aigang.Contracts.Executor.API\Aigang.Contracts.Executor.API.csproj", "{5C5675CB-32D9-4EAB-8468-3667FA1DBAD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aigang.Contracts.Executor.Handlers", "Aigang.Contracts.Executor.Handlers\Aigang.Contracts.Executor.Handlers.csproj", "{AC64F6ED-5813-4D04-B3CF-BD001DFB9BE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aigang.Contracts.Executor.Domain", "Aigang.Contracts.Executor.Domain\Aigang.Contracts.Executor.Domain.csproj", "{E390D7D6-7784-49A4-B45B-A63ECECC9AC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aigang.Contracts.Executor.Contracts", "Aigang.Contracts.Executor.Contracts\Aigang.Contracts.Executor.Contracts.csproj", "{B50D9B61-0FD9-49F9-AE50-527E2448C886}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clients", "Clients", "{434A060D-C4F1-4B94-A6D2-F570CE736C20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aigang.Contracts.Executor.Blockchain.Client", "Aigang.Contracts.Executor.Blockchain.Client\Aigang.Contracts.Executor.Blockchain.Client.csproj", "{F2249485-B435-4295-9B34-B3FD5EB8990D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aigang.Contracts.Executor.Utils", "Aigang.Contracts.Executor.Utils\Aigang.Contracts.Executor.Utils.csproj", "{DDD9F9F9-8208-4BED-BE28-DE88CAB67E56}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{6322D7F9-23EA-4B39-AC5C-9C18D6814DF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Playground", "Playground\Playground.csproj", "{2588951C-5642-4DDF-B5A2-FC7740D9183A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aigang.Etherscan.Client", "Aigang.Etherscan.Client\Aigang.Etherscan.Client.csproj", "{2E586B42-34B9-4A62-B131-6D401736D3D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C5675CB-32D9-4EAB-8468-3667FA1DBAD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C5675CB-32D9-4EAB-8468-3667FA1DBAD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C5675CB-32D9-4EAB-8468-3667FA1DBAD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C5675CB-32D9-4EAB-8468-3667FA1DBAD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C5675CB-32D9-4EAB-8468-3667FA1DBAD9}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{AC64F6ED-5813-4D04-B3CF-BD001DFB9BE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC64F6ED-5813-4D04-B3CF-BD001DFB9BE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC64F6ED-5813-4D04-B3CF-BD001DFB9BE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC64F6ED-5813-4D04-B3CF-BD001DFB9BE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E390D7D6-7784-49A4-B45B-A63ECECC9AC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E390D7D6-7784-49A4-B45B-A63ECECC9AC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E390D7D6-7784-49A4-B45B-A63ECECC9AC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E390D7D6-7784-49A4-B45B-A63ECECC9AC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E390D7D6-7784-49A4-B45B-A63ECECC9AC1}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B50D9B61-0FD9-49F9-AE50-527E2448C886}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B50D9B61-0FD9-49F9-AE50-527E2448C886}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B50D9B61-0FD9-49F9-AE50-527E2448C886}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B50D9B61-0FD9-49F9-AE50-527E2448C886}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B50D9B61-0FD9-49F9-AE50-527E2448C886}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F2249485-B435-4295-9B34-B3FD5EB8990D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2249485-B435-4295-9B34-B3FD5EB8990D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2249485-B435-4295-9B34-B3FD5EB8990D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2249485-B435-4295-9B34-B3FD5EB8990D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2249485-B435-4295-9B34-B3FD5EB8990D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{DDD9F9F9-8208-4BED-BE28-DE88CAB67E56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDD9F9F9-8208-4BED-BE28-DE88CAB67E56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDD9F9F9-8208-4BED-BE28-DE88CAB67E56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDD9F9F9-8208-4BED-BE28-DE88CAB67E56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2588951C-5642-4DDF-B5A2-FC7740D9183A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2588951C-5642-4DDF-B5A2-FC7740D9183A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2588951C-5642-4DDF-B5A2-FC7740D9183A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2588951C-5642-4DDF-B5A2-FC7740D9183A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E586B42-34B9-4A62-B131-6D401736D3D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E586B42-34B9-4A62-B131-6D401736D3D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E586B42-34B9-4A62-B131-6D401736D3D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E586B42-34B9-4A62-B131-6D401736D3D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F2249485-B435-4295-9B34-B3FD5EB8990D} = {434A060D-C4F1-4B94-A6D2-F570CE736C20}
+		{2588951C-5642-4DDF-B5A2-FC7740D9183A} = {6322D7F9-23EA-4B39-AC5C-9C18D6814DF8}
+		{2E586B42-34B9-4A62-B131-6D401736D3D4} = {434A060D-C4F1-4B94-A6D2-F570CE736C20}
+	EndGlobalSection
+EndGlobal

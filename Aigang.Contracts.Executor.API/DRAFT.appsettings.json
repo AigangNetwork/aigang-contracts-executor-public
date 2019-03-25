@@ -1,0 +1,25 @@
+﻿{
+  "AppName": "DEV.Aigang.Contracts.Executor",           // This name is used for logging purposes
+  
+  "Ethereum:gasPrice": 10000000000,                     // 10 Gwei as static gas price
+  "Ethereum:insurance:addPolicy:gasLimit": 300000,      // Add gass limit for addPolicy command
+  "Ethereum:insurance:claim:gasLimit": 300000,
+
+  "NetworkProvider": "https://ropsten.infura.io/xxxxx", // Network provider address
+  
+  "ApiKey": "xxxxx",                                     // Generate new api key which will be accepted with Authorization header
+                                                         // https://www.guidgenerator.com/online-guid-generator.aspx
+
+  "TokenAddress": "0xFeEaed9eeb9bbf07E3bBB627CC736172CB04C776", // AIX token Ropsten network
+  
+  "MinimumWalletBalance": "0.5",                         // Notify team when this limit will be reached
+  "MinimumContractBalance": "0",                         
+
+  "Email:SMTPHost": "mail.gmail.com",                    // Configure SMTP client
+  "Email:SMTPPort": 1234,
+  "Email:SMTPUser": "test@test.org",
+  "Email:SMTPPassword": "password",
+  "Email:SMTPFromEmail": "test@test.org",
+  "Email:Team": "team@insurance.org"
+
+}
