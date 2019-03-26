@@ -32,14 +32,17 @@ namespace Aigang.Transactions.Utils
         {
             message.From = new MailAddress(_from);
 
-            using (var client = new SmtpClient(_host, _port)
+            if(!string.IsNullOrWhiteSpace(_host))
             {
-                UseDefaultCredentials = false,
-                EnableSsl = true,
-                Credentials = new NetworkCredential(_user, _password)
-            })
-            {
-                client.Send(message);
+                using (var client = new SmtpClient(_host, _port)
+                {
+                    UseDefaultCredentials = false,
+                    EnableSsl = true,
+                    Credentials = new NetworkCredential(_user, _password)
+                })
+                {
+                    client.Send(message);
+                }
             }
         }
         

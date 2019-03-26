@@ -5,7 +5,7 @@
   "Ethereum:insurance:addPolicy:gasLimit": 300000,      // Add gass limit for addPolicy command
   "Ethereum:insurance:claim:gasLimit": 300000,
 
-  "NetworkProvider": "https://ropsten.infura.io/xxxxx", // Network provider address
+  "NetworkProvider": "https://ropsten.infura.io/xxxxx", // Network provider address from your account
   
   "ApiKey": "xxxxx",                                     // Generate new api key which will be accepted with Authorization header
                                                          // https://www.guidgenerator.com/online-guid-generator.aspx
@@ -15,7 +15,10 @@
   "MinimumWalletBalance": "0.5",                         // Notify team when this limit will be reached
   "MinimumContractBalance": "0",                         
 
-  "Email:SMTPHost": "mail.gmail.com",                    // Configure SMTP client
+  "Etherscan:BaseAddress": "https://ropsten.etherscan.io",
+  "Etherscan:Token": "xxxxx",                            // Get token from your etherscan account
+
+  "Email:SMTPHost": "",                    // Configure SMTP client. Leave empty if not configured
   "Email:SMTPPort": 1234,
   "Email:SMTPUser": "test@test.org",
   "Email:SMTPPassword": "password",
